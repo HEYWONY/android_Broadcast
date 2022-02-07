@@ -19,5 +19,6 @@ app 우클릭 => other -> BroadcastReceiver 클릭 <br>
 ![image](https://user-images.githubusercontent.com/65533618/152719586-2c7cefda-8d07-46fd-8c2c-3f0f2d439393.png) <br>
 이 과정을 총 두 번 실행해서 2개의 BroadcastReceiver를 생성한다.
 
-
-
+### 실행 결과
+![image](https://user-images.githubusercontent.com/65533618/152722690-392de72a-f4d9-4642-9c3b-3bc832dd085c.png) <br>
+![image](https://user-images.githubusercontent.com/65533618/152722714-deb5f7c7-1731-4ade-ad0f-e9eb081ae081.png)
