@@ -9,6 +9,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.220207_breadcast">
+
+        <!-- 우리가 Broadcast 만든 거-->
+        <!-- <receiver
+            android:name=".MyReceiver2"
+            android:enabled="true"
+            android:exported="true"></receiver> -->
+        <receiver
+            android:name=".MyReceiver1"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.TESTEVENT1"/>
+                <!-- `하는 역할` : 이벤트가 발생하면 항상 응답을 한다.
+                     2를 삭제한 이유 : 쟤는 자바 소스로 할 거니까.
+                     브로드캐스트 수신
+                     1. 시스템에서 발생 (헨드폰에서 발생)
+                     2. 앱에서 발생 시키는 것 (소스에서 코딩) `우리가 하는 거` -->
+            </intent-filter>
+        </receiver>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
